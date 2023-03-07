@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Serif&family=Satisfy&display=swap");
+* {
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 100vh;
+  font-family: "IBM Plex Serif", serif;
+}
+.nav {
+  width: 100%;
+  background-color: darkorange;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  width: 30%;
+  background-color: #003333;
+  position: relative;
+}
+.name {
+  transform: rotate(-90deg);
+  margin-top: 300px;
+}
+.name p {
+  width: 600px;
+  margin-left: 43px;
+  font-size: 29px;
+  letter-spacing: 16px;
+  margin-top: -20px;
+}
+h1 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 120px;
+  margin: 0;
+  line-height: 137px;
+  text-transform: uppercase;
+}
+.greenOrange {
+  background: -webkit-linear-gradient(right, white 50%, #003333 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Source Serif Pro", serif;
+}
+.main {
+  width: 70%;
+  background-color: #003333;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+    "profile    education"
+    "profile education"
+    "contacts hobbies ";
+}
+#profile {
+  grid-area: profile;
+}
+#profile p {
+  margin-left: 70px;
+  word-spacing: 1px;
+  font-size: 32px;
+  width: 475px;
+  letter-spacing: 4px;
+  hyphens: auto;
+  font-style: italic;
+  text-indent: 25px;
+  text-align: justify;
+}
+#education {
+  grid-area: education;
+  background-color: #003333;
+}
+#education p {
+  margin: 10px 10px 0 35px;
+  font-size: 28px;
+  word-spacing: 1px;
+  letter-spacing: 4px;
+}
+#education h2 {
+  width: 360px;
+}
+.myProject {
+  margin-top: 80px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnPrject {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 35px;
+  font-family: "IBM Plex Serif", serif;
+}
+.btnPrject:hover {
+  background-color: darkorange;
+  color: #003333;
+}
+#skills {
+  float: left;
+  position: relative;
+}
+.skill_item {
+  margin-bottom: 30px;
+}
+.skills_list {
+  margin-left: 56px;
+}
+.pgy {
+  text-align: center;
+  text-transform: uppercase;
+}
+section li {
+  display: flex;
+  align-items: center;
+}
+section span {
+  margin-left: 40px;
+  font-size: 30px;
+}
+section img {
+  width: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#hobbies {
+  grid-area: hobbies;
+  background-color: orange;
+  width: 202px;
+  margin-left: 202px;
+  margin-top: -290px;
+}
+#hobbies h2 {
+  margin-left: -202px;
+}
+#profile {
+  background: orange;
+}
+#skills h2 {
+  margin-top: 70px;
+}
+#contacts {
+  grid-area: contacts;
+  background-color: #003333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacts h2 {
+  background: none;
+}
+.hobbies_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.hobbies_list img {
+  width: 100px;
+}
+.hobby_item {
+  margin: 15px 0 30px 0;
+  padding: 0;
+}
+.contacts_list {
+  margin: 0 0 0 10px;
+}
+.contact_item {
+  margin-bottom: 34px;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  background-color: darkorange;
+  text-transform: uppercase;
+  width: 300px;
+  font-size: 35px;
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 45px;
+  padding: 10px 0;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav_item a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.footer {
+  background-color: darkorange;
+  width: 100%;
+  height: 100px;
+}
+.footer_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_list:last-child {
+  margin-right: 40px;
+}
+.win {
+  font-size: 80px;
+  margin: 0;
+}
+.new_game {
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  color: white;
+  background: darkkhaki;
+  font-family: Arial;
+  cursor: pointer;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.wrapper_game {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  outline: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 100px;
+}
+.active {
+  opacity: 1;
+}
+.game_open {
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: slategray;
+  transform: translateX(100%);
+  transition: all 0.5s linear;
+}
+.game_open.active {
+  transform: translateX(0%);
+  transition: all 0.5s linear;
+}
+.close_game {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  margin-left: 516px;
+}
+.game_cross {
+  width: 100%;
+  height: 100%;
+}
+.game_zero {
+  width: 100%;
+  height: 100%;
+}
