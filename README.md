@@ -1,1 +1,2 @@
-https://Tkachev-Vladimir.github.io/rsschool-cv/cv
+
+https://Tkachev-Vladimir.github.io/rsschool-cv/
